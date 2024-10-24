@@ -1,0 +1,23 @@
+[
+  {
+    "title": "English",
+    "code": "ENG101",
+    "level": "TWOHUNDRED"
+  }, {
+    "title": "Mathematics",
+    "code": "MTH101",
+    "level": "HUNDRED"
+  }, {
+    "title": "Physics",
+    "code": "PHY101",
+    "level": "HUNDRED"
+  }, {
+    "title": "Chemistry",
+    "code": "CHM101",
+    "level": "HUNDRED"
+  }, {
+    "title": "Biology",
+    "code": "BIO101",
+    "level": "HUNDRED"
+  }
+]

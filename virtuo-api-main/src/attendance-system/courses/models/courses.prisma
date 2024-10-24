@@ -1,0 +1,9 @@
+model Course {
+  code     String           @unique
+  title    String
+  level    Level            @default(HUNDRED)
+  students CourseStudent[]
+  classes  CourseClass[]
+  lecturer CourseLecturer[]
+  ...boilerplate
+}

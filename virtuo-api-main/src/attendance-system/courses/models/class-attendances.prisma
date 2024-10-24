@@ -1,0 +1,8 @@
+model ClassAttendance {
+  ...boilerplate
+  classId    Int
+  class      CourseClass @relation(fields: [classId], references: [id])
+  studentId  Int
+  student    Student     @relation(fields: [studentId], references: [accountId])
+  attended   Boolean     @default(false)
+}

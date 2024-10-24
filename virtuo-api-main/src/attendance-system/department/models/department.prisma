@@ -1,0 +1,6 @@
+model Department {
+  name      String @unique
+  slug      String
+  facultyId String
+   ...boilerplate
+}

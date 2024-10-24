@@ -1,0 +1,9 @@
+model CourseClass {
+  ...boilerplate
+  courseId        Int
+  course          Course            @relation(fields: [courseId], references: [id])
+  startTime       DateTime
+  endTime         DateTime
+  day             String
+  classAttendance ClassAttendance[]
+}

@@ -1,0 +1,7 @@
+model CourseStudent {
+  ...boilerplate
+  courseId  Int
+  course    Course  @relation(fields: [courseId], references: [id])
+  studentId Int
+  student   Student @relation(fields: [studentId], references: [accountId])
+}

@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: virtuo-api
+    restart: always
+    ports:
+      - "4001:4000"
+    depends_on:
+      - db
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: >
+      sh -c "if [ ${NODE_ENV} = 'production' ]; 
+             then npm run start:prod; 
+             else npm run start:dev; 
+             fi"
+
+  db:
+    image: postgres:13
+    container_name: virtuo-db
+    restart: always
+    ports:
+      - "3004:5432"
+    env_file:
+      - .env
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
+    name: virtuo_postgres_data

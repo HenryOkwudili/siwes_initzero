@@ -1,0 +1,8 @@
+Web page for each restaurant:
+1. Web Page Creation
+
+2. Content Management (i.e., Menu, Reservation, etc.)
+
+3. Ability to search for restaurants.
+
+4. Manage meta tags and keywords.

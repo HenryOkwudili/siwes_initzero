@@ -1,0 +1,16 @@
+model User {
+   ...boilerplate
+  firstName       String
+  lastName        String
+  email           String    @unique
+  password        String
+  isFirstLogin    Boolean?  @default(false)
+  lastLogin       DateTime?
+  deletedAt       DateTime?
+  hashedRt        String?
+  isActivated     Boolean?  @default(false)
+  isTermsAccepted Boolean?  @default(false)
+  accounts        Account[]
+
+  @@index([email, firstName, lastName])
+}

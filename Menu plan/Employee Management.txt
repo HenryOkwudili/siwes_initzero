@@ -1,0 +1,18 @@
+Employee Management:
+1. Employee name (i.e, first and last)
+2. Employee phone & email
+3. Employee ID
+4. Employee's task(e.g dispatch, etc)
+5. Salary
+
+Functions:
+1. Add employee
+2. Remove employee
+3. Edit employee details
+4. Assign tasks
+
+
+
+
+
+

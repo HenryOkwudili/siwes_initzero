@@ -1,0 +1,21 @@
+Online ordering/ delivery:
+1. Item ID/ Name
+2. Quantity
+3. Price per unit
+4. Total Price
+5. Customer ID
+
+Functions:
+1. Place order
+2. Send order request to kitchen
+3. Kitchen hands order to dispatch
+4. The item is delivered to the customer by dispatch
+
+
+
+Customer Management:
+1. Name(First and last)
+2. ID
+3. Phone & email
+4. Address
+5. 

@@ -1,0 +1,9 @@
+Technologies To Use:
+1. Database: PostgreSQL
+2. Client-side rendering: React & Tailwind CSS
+3. Server-side: Typescript
+4. Framework: NextJs
+
+
+
+ 

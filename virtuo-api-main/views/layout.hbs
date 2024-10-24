@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{subject}}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            /*text-align: center;*/
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .header {
+            /*background-color: #49B142;*/
+            /*padding: 20px;*/
+            color: #fff;
+        }
+
+        .logo {
+            max-width: 100px;
+            margin-bottom: 20px;
+        }
+
+        .content {
+            padding: 30px;
+            background-color: #fff;
+        }
+
+        .footer {
+            background-color: #f1c010;
+            padding: 10px;
+            color: #fff;
+        }
+
+        .footer-content{
+            text-align: right;
+        }
+
+        /* Responsive Styles */
+        @media screen and (max-width: 600px) {
+            .container {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <div class="header">
+        <img src="{{logo}}" alt="">
+
+    </div>
+    <div class="content">
+       {{bodyContent}}
+    </div>
+    <div class="footer">
+        <div class="footer-content">
+            <p>VirtuoServices</p>
+            <p>support@virtuo.com</p>
+            <p>00000000000</p>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

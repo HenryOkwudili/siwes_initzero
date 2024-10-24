@@ -1,0 +1,20 @@
+enum AccountType {
+  STUDENT
+  ADMIN
+  LECTURER
+  BUSINESS_OWNER
+  SCHOOL
+}
+
+model Account {
+  ...boilerplate
+  type           AccountType
+  users          User[]
+  student        Student?
+  school         School?
+  admin          Admin?
+  lecturer       Lecturer?
+  business_owner BusinessOwner?
+
+  @@index([type])
+}

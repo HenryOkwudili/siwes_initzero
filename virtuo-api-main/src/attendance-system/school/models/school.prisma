@@ -1,0 +1,14 @@
+model School {
+  accountId   Int        @id
+  account     Account    @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  name        String     @unique
+  regCode     String     @unique
+  address     String
+  email       String
+  phoneNumber String
+  bio         String?    @db.Text
+  logo        String?
+  students    Student[]
+  lecturers   Lecturer[]
+  status      Boolean    @default(false)
+}

@@ -1,0 +1,10 @@
+Menu Management:
+1. Item name
+2. Item price
+3. Item description
+
+
+Functions:
+1. Add item
+2. Remove item
+3. Edit Item

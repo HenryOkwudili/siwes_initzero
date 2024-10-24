@@ -1,0 +1,85 @@
+Reservation Management:
+1. Customer's Name
+2. Table ID
+3. Reserved Time
+4. Customer's phone number 
+5. Customer's email
+
+Functions:
+1. Make reservation (i.e Pick a table)
+2. Cancel reservation
+3. Edit reservation
+
+
+Table:
+1. Table ID
+2. Table Type(Normal, VIP, VVIP)
+3. Table Price
+
+
+
+
+
+Employee Management:
+1. Employee name (i.e, first and last)
+2. Employee phone & email
+3. Employee ID
+4. Employee's task(e.g dispatch, etc)
+5. Salary
+
+Functions:
+1. Add employee
+2. Remove employee
+3. Edit employee details
+4. Assign tasks
+
+
+
+
+
+
+Menu Management:
+1. Item name
+2. Item price
+3. Item description
+
+
+Functions:
+1. Add item
+2. Remove item
+3. Edit Item
+Online ordering/ delivery:
+1. Item ID/ Name
+2. Quantity
+3. Price per unit
+4. Total Price
+5. Customer ID
+
+Functions:
+1. Place order
+2. Send order request to kitchen
+3. Kitchen hands order to dispatch
+4. The item is delivered to the customer by dispatch
+
+
+
+Customer Management:
+1. Name(First and last)
+2. ID
+3. Phone & email
+4. Address
+
+
+AI customer service:
+1. Handles customer questions/enquiries
+2. Refers to employees
+
+
+Web page for each restaurant:
+1. Web Page Creation
+
+2. Content Management (i.e., Menu, Reservation, etc.)
+
+3. Ability to search for restaurants.
+
+4. Manage meta tags and keywords.

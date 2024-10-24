@@ -1,0 +1,22 @@
+Reservation Management:
+1. Customer's Name
+2. Table ID
+3. Reserved Time
+4. Customer's phone number 
+5. Customer's email
+
+Functions:
+1. Make reservation (i.e Pick a table)
+2. Cancel reservation
+3. Edit reservation
+
+
+Table:
+1. Table ID
+2. Table Type(Normal, VIP, VVIP)
+3. Table Price
+
+
+
+
+
